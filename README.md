@@ -24,3 +24,14 @@ console.log(ConfigPresets.deviceList);
 console.log(ConfigPresets.deviceMockups);
 console.log(ConfigPresets.i18n);
 console.log(ConfigPresets.themes);
+
+## Scripts
+
+Here are the available npm scripts for development and production:
+
+- `npm run prepare-npm-package`: Build the product and perform a dry-run package preparation.
+- `npm run release-npm-package`: Publish the package to npm.
+
+## License
+
+This project is licensed under the CC BY-NC-ND 4.0 License. See the [LICENSE](https://creativecommons.org/licenses/by-nc-nd/4.0/) file for details.
