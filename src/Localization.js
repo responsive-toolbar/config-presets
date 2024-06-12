@@ -7,8 +7,7 @@
  * fa-IR, fi-Fi, fr-FR, gu-IN, he-IL, hi-IN, hr-HR, hu-HU, id-ID, it-IT, ja-JP,
  * ko-KR, lt-LT, lv-LV, nl-BE, nl-NL, no-NO, pl-PL, pt-BR, pt-PT, ro-RO, ru-RU,
  * sk-SK, sl-SI, sr-RS, sv-SE, th-TH, tr-TR, uk-UA, vi-VN, zh-CN, zh-TW
-
-
+ * 
  * @type {Object.<string, Object.<string, string>>}
  */
 

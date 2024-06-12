@@ -1,7 +1,7 @@
-import { DeviceList as deviceList } from './DeviceList.js';
-import { DeviceMockups as deviceMockups } from './DeviceMockups.js';
-import { Localization as i18n } from './Localization.js';
-import { Themes as themes } from './Themes.js';
+import { DeviceList as deviceList } from './src/DeviceList.js';
+import { DeviceMockups as deviceMockups } from './src/DeviceMockups.js';
+import { Localization as i18n } from './src/Localization.js';
+import { Themes as themes } from './src/Themes.js';
 
 /**
  * A config presets module containing predefined configurations.
