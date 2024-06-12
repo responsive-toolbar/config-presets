@@ -1,0 +1,14 @@
+{
+  "name": "@responsive-toolbar/config-presets",
+  "version": "1.0.0",
+  "description": "Config presets for Responsive Toolbar",
+  "private": false,
+  "license": "CC BY-NC-ND 4.0",
+  "author": "Malte Wassermann",
+  "repository": "https://github.com/responsive-toolbar/config-presets",
+  "main": "index.js",
+  "scripts": {
+    "prepare-npm-package": "npm pack --dry-run",
+    "release-npm-package": "npm publish --access public"
+  }
+}
