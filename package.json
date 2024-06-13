@@ -1,7 +1,7 @@
 {
   "name": "@responsive-toolbar/config-presets",
-  "version": "1.0.3",
-  "description": "Configuration Presets for Responsive Toolbar",
+  "version": "1.0.4",
+  "description": "Configuration Presets for Responsive Toolbar.",
   "private": false,
   "license": "CC BY-NC-ND 4.0",
   "author": "Malte Wassermann",

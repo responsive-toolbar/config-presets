@@ -62,7 +62,6 @@ export const Localization = {
     'label.toolbarId': 'معرف شريط الأدوات',
     'label.unit': 'وحدة العمل (المسطرة، الشبكة)',
     'label.version': 'الإصدار',
-    'value.language': 'العربية (Arabic)',
     'unit.cm': 'سنتيمترات',
     'unit.em': 'ام',
     'unit.in': 'بوصات',
@@ -71,6 +70,7 @@ export const Localization = {
     'unit.pt': 'نقاط',
     'unit.px': 'بكسلات',
     'unit.rem': 'جذر ام',
+    'value.language': 'العربية (Arabic)',
     'value.scaleReset': 'إعادة تعيين إلى الافتراضي',
     'value.scaleWindow': 'مناسب للنافذة',
     'value.system': 'النظام',
@@ -83,7 +83,11 @@ export const Localization = {
     'message.invalidJson': 'سلسلة التكوين المقدمة ليست بتنسيق JSON صالح. يرجى التحقق من بناء الجملة والمحاولة مرة أخرى.',
     'message.invalidConfigFormat': 'خطأ في التكوين: يُتوقع سلسلة JSON صالحة أو كائن. يرجى مراجعة تنسيق التكوين.',
     'message.missingToolbarId': 'معرف "toolbarId" مفقود أو ليس سلسلة في التكوين المقدم. يرجى التأكد من تضمينه بشكل صحيح.',
-    'message.missingLicenseKey': 'مفتاح "licenseKey" مفقود أو ليس سلسلة في التكوين المقدم. يرجى التأكد من تضمينه بشكل صحيح.'
+    'message.missingLicenseKey': 'مفتاح "licenseKey" مفقود أو ليس سلسلة في التكوين المقدم. يرجى التأكد من تضمينه بشكل صحيح.',
+    'action.applyConfiguration': 'تطبيق الإعدادات',
+    'action.resetDefault': 'إعادة التعيين إلى الإعدادات الافتراضية',
+    'text.configPresetsInvite': 'تحديث وتعزيز إعدادات التكوين',
+    'text.joinUs': 'انضم إلينا'
   },
   'bg-BG': {
     'abbr.maximum': 'Макс.',
@@ -135,7 +139,6 @@ export const Localization = {
     'label.toolbarId': 'ID на лентата с инструменти',
     'label.unit': 'Работна единица (линийка, мрежа)',
     'label.version': 'Версия',
-    'value.language': 'Български (Bulgarian)',
     'unit.cm': 'Сантиметри',
     'unit.em': 'Em',
     'unit.in': 'Инчове',
@@ -144,6 +147,7 @@ export const Localization = {
     'unit.pt': 'Точки',
     'unit.px': 'Пиксели',
     'unit.rem': 'Root Em',
+    'value.language': 'Български (Bulgarian)',
     'value.scaleReset': 'Нулиране до подразбиране',
     'value.scaleWindow': 'Приспособяване към прозореца',
     'value.system': 'Система',
@@ -156,7 +160,11 @@ export const Localization = {
     'message.invalidJson': 'Предоставената конфигурационна низ не е валиден JSON формат. Моля, проверете синтаксиса и опитайте отново.',
     'message.invalidConfigFormat': 'Грешка в конфигурацията: Очаква се валиден JSON низ или обект. Моля, прегледайте формата на конфигурацията.',
     'message.missingToolbarId': 'Липсва "toolbarId" или не е низ в предоставената конфигурация. Моля, уверете се, че е правилно включен.',
-    'message.missingLicenseKey': 'Липсва "licenseKey" или не е низ в предоставената конфигурация. Моля, уверете се, че е правилно включен.'
+    'message.missingLicenseKey': 'Липсва "licenseKey" или не е низ в предоставената конфигурация. Моля, уверете се, че е правилно включен.',
+    'action.applyConfiguration': 'Приложи конфигурацията',
+    'action.resetDefault': 'Възстановяване на фабрични настройки',
+    'text.configPresetsInvite': 'Актуализирай и подобри конфигурационните настройки',
+    'text.joinUs': 'Присъедини се към нас'
   },
   'ca-ES': {
     'abbr.maximum': 'Màx.',
@@ -208,7 +216,6 @@ export const Localization = {
     'label.toolbarId': 'ID de la barra d\'eines',
     'label.unit': 'Unitat de treball (regla, quadrícula)',
     'label.version': 'Versió',
-    'value.language': 'Català (Catalan)',
     'unit.cm': 'Centímetres',
     'unit.em': 'Em',
     'unit.in': 'Polzades',
@@ -217,6 +224,7 @@ export const Localization = {
     'unit.pt': 'Punts',
     'unit.px': 'Píxels',
     'unit.rem': 'Root Em',
+    'value.language': 'Català (Catalan)',
     'value.scaleReset': 'Restablir a predeterminat',
     'value.scaleWindow': 'Ajustar a la finestra',
     'value.system': 'Sistema',
@@ -229,7 +237,11 @@ export const Localization = {
     'message.invalidJson': 'La cadena de configuració proporcionada no és en un format JSON vàlid. Si us plau, comprova la sintaxi i torna a intentar-ho.',
     'message.invalidConfigFormat': 'Error de configuració: s\'esperava una cadena JSON vàlida o un objecte. Si us plau, revisa el format de la configuració.',
     'message.missingToolbarId': 'Falta "toolbarId" o no és una cadena en la configuració proporcionada. Si us plau, assegura\'t que s\'ha inclòs correctament.',
-    'message.missingLicenseKey': 'Falta "licenseKey" o no és una cadena en la configuració proporcionada. Si us plau, assegura\'t que s\'ha inclòs correctament.'
+    'message.missingLicenseKey': 'Falta "licenseKey" o no és una cadena en la configuració proporcionada. Si us plau, assegura\'t que s\'ha inclòs correctament.',
+    'action.applyConfiguration': 'Aplica la configuració',
+    'action.resetDefault': 'Restableix a la configuració predeterminada',
+    'text.configPresetsInvite': 'Actualitza i millora les configuracions predefinides',
+    'text.joinUs': 'Uneix-te a nosaltres'
   },
   'cs-CZ': {
     'abbr.maximum': 'Max.',
@@ -281,7 +293,6 @@ export const Localization = {
     'label.toolbarId': 'ID panelu nástrojů',
     'label.unit': 'Pracovní jednotka (pravítko, mřížka)',
     'label.version': 'Verze',
-    'value.language': 'Čeština (Czech)',
     'unit.cm': 'Centimetry',
     'unit.em': 'Em',
     'unit.in': 'Palce',
@@ -290,6 +301,7 @@ export const Localization = {
     'unit.pt': 'Body',
     'unit.px': 'Pixely',
     'unit.rem': 'Root Em',
+    'value.language': 'Čeština (Czech)',
     'value.scaleReset': 'Resetovat na výchozí hodnotu',
     'value.scaleWindow': 'Přizpůsobit oknu',
     'value.system': 'Systém',
@@ -302,7 +314,11 @@ export const Localization = {
     'message.invalidJson': 'Poskytnutý konfigurační řetězec není ve formátu platného JSON. Zkontrolujte prosím syntaxi a zkuste to znovu.',
     'message.invalidConfigFormat': 'Chyba konfigurace: Očekává se platný řetězec JSON nebo objekt. Prosím, zkontrolujte formát konfigurace.',
     'message.missingToolbarId': 'V poskytnuté konfiguraci chybí "toolbarId" nebo není řetězec. Ujistěte se, že je správně zahrnut.',
-    'message.missingLicenseKey': 'V poskytnuté konfiguraci chybí "licenseKey" nebo není řetězec. Ujistěte se, že je správně zahrnut.'
+    'message.missingLicenseKey': 'V poskytnuté konfiguraci chybí "licenseKey" nebo není řetězec. Ujistěte se, že je správně zahrnut.',
+    'action.applyConfiguration': 'Použij konfiguraci',
+    'action.resetDefault': 'Obnovit výchozí nastavení',
+    'text.configPresetsInvite': 'Aktualizuj a vylepši přednastavené konfigurace',
+    'text.joinUs': 'Připoj se k nám'
   },
   'da-DK': {
     'abbr.maximum': 'Maks.',
@@ -354,7 +370,6 @@ export const Localization = {
     'label.toolbarId': 'Værktøjslinje ID',
     'label.unit': 'Arbejdsenhed (lineal, gitter)',
     'label.version': 'Version',
-    'value.language': 'Dansk (Danish)',
     'unit.cm': 'Centimeter',
     'unit.em': 'Em',
     'unit.in': 'Tommer',
@@ -363,6 +378,7 @@ export const Localization = {
     'unit.pt': 'Point',
     'unit.px': 'Pixels',
     'unit.rem': 'Root Em',
+    'value.language': 'Dansk (Danish)',
     'value.scaleReset': 'Nulstil til standard',
     'value.scaleWindow': 'Tilpas til vindue',
     'value.system': 'System',
@@ -375,7 +391,11 @@ export const Localization = {
     'message.invalidJson': 'Den angivne konfigurationsstreng er ikke i et gyldigt JSON-format. Kontroller venligst syntaksen og prøv igen.',
     'message.invalidConfigFormat': 'Konfigurationsfejl: Forventet en gyldig JSON-streng eller et objekt. Gennemgå venligst konfigurationsformatet.',
     'message.missingToolbarId': 'Den angivne konfiguration mangler "toolbarId" eller er ikke en streng. Sørg for, at det er korrekt inkluderet.',
-    'message.missingLicenseKey': 'Den angivne konfiguration mangler "licenseKey" eller er ikke en streng. Sørg for, at det er korrekt inkluderet.'
+    'message.missingLicenseKey': 'Den angivne konfiguration mangler "licenseKey" eller er ikke en streng. Sørg for, at det er korrekt inkluderet.',
+    'action.applyConfiguration': 'Anvend konfiguration',
+    'action.resetDefault': 'Nulstil til standardindstillinger',
+    'text.configPresetsInvite': 'Opdater og forbedr konfigurationsindstillingerne',
+    'text.joinUs': 'Deltag i os'
   },
   'de-DE': {
     'abbr.maximum': 'Max.',
@@ -427,7 +447,6 @@ export const Localization = {
     'label.toolbarId': 'Werkzeugleisten-ID',
     'label.unit': 'Arbeitseinheit (Lineal, Raster)',
     'label.version': 'Version',
-    'value.language': 'Deutsch (German)',
     'unit.cm': 'Zentimeter',
     'unit.em': 'Em',
     'unit.in': 'Zoll',
@@ -436,6 +455,7 @@ export const Localization = {
     'unit.pt': 'Punkte',
     'unit.px': 'Pixel',
     'unit.rem': 'Root Em',
+    'value.language': 'Deutsch (German)',
     'value.scaleReset': 'Auf Standard zurücksetzen',
     'value.scaleWindow': 'An Fenster anpassen',
     'value.system': 'System',
@@ -448,7 +468,11 @@ export const Localization = {
     'message.invalidJson': 'Der angegebene Konfigurationsstring hat kein gültiges JSON-Format. Bitte überprüfen Sie die Syntax und versuchen Sie es erneut.',
     'message.invalidConfigFormat': 'Konfigurationsfehler: Erwartet wird ein gültiger JSON-String oder ein Objekt. Bitte überprüfen Sie das Konfigurationsformat.',
     'message.missingToolbarId': 'In der angegebenen Konfiguration fehlt die "toolbarId" oder sie ist kein String. Bitte stellen Sie sicher, dass sie korrekt enthalten ist.',
-    'message.missingLicenseKey': 'In der angegebenen Konfiguration fehlt der "licenseKey" oder er ist kein String. Bitte stellen Sie sicher, dass er korrekt enthalten ist.'
+    'message.missingLicenseKey': 'In der angegebenen Konfiguration fehlt der "licenseKey" oder er ist kein String. Bitte stellen Sie sicher, dass er korrekt enthalten ist.',
+    'action.applyConfiguration': 'Konfiguration anwenden',
+    'action.resetDefault': 'Auf die Standardeinstellungen zurücksetzen',
+    'text.configPresetsInvite': 'Aktualisiere und verbessere die Konfigurationseinstellungen',
+    'text.joinUs': 'Mach mit'
   },
   'de-CH': {
     'abbr.maximum': 'Max.',
@@ -500,7 +524,6 @@ export const Localization = {
     'label.toolbarId': 'Werkzeugleisten-ID',
     'label.unit': 'Arbeitseinheit (Lineal, Raster)',
     'label.version': 'Version',
-    'value.language': 'Deutsch (Schweiz)',
     'unit.cm': 'Zentimeter',
     'unit.em': 'Em',
     'unit.in': 'Zoll',
@@ -509,6 +532,7 @@ export const Localization = {
     'unit.pt': 'Punkte',
     'unit.px': 'Pixel',
     'unit.rem': 'Root Em',
+    'value.language': 'Deutsch (Schweiz)',
     'value.scaleReset': 'Auf Standard zurücksetzen',
     'value.scaleWindow': 'An Fenster anpassen',
     'value.system': 'System',
@@ -521,7 +545,11 @@ export const Localization = {
     'message.invalidJson': 'Der angegebene Konfigurationsstring hat kein gültiges JSON-Format. Bitte überprüfen Sie die Syntax und versuchen Sie es erneut.',
     'message.invalidConfigFormat': 'Konfigurationsfehler: Erwartet wird ein gültiger JSON-String oder ein Objekt. Bitte überprüfen Sie das Konfigurationsformat.',
     'message.missingToolbarId': 'In der angegebenen Konfiguration fehlt die "toolbarId" oder sie ist kein String. Bitte stellen Sie sicher, dass sie korrekt enthalten ist.',
-    'message.missingLicenseKey': 'In der angegebenen Konfiguration fehlt der "licenseKey" oder er ist kein String. Bitte stellen Sie sicher, dass er korrekt enthalten ist.'
+    'message.missingLicenseKey': 'In der angegebenen Konfiguration fehlt der "licenseKey" oder er ist kein String. Bitte stellen Sie sicher, dass er korrekt enthalten ist.',
+    'action.applyConfiguration': 'Konfiguration anwenden',
+    'action.resetDefault': 'Auf die Standardeinstellungen zurücksetzen',
+    'text.configPresetsInvite': 'Aktualisiere und verbessere die Konfigurationseinstellungen',
+    'text.joinUs': 'Mach mit'
   },
   'el-GR': {
     'abbr.maximum': 'Μέγ.',
@@ -573,7 +601,6 @@ export const Localization = {
     'label.toolbarId': 'ID γραμμής εργαλείων',
     'label.unit': 'Μονάδα εργασίας (κανόνας, πλέγμα)',
     'label.version': 'Έκδοση',
-    'value.language': 'Ελληνικά (Greek)',
     'unit.cm': 'Εκατοστά',
     'unit.em': 'Em',
     'unit.in': 'Ίντσες',
@@ -582,6 +609,7 @@ export const Localization = {
     'unit.pt': 'Πόντοι',
     'unit.px': 'Εικονοστοιχεία',
     'unit.rem': 'Root Em',
+    'value.language': 'Ελληνικά (Greek)',
     'value.scaleReset': 'Επαναφορά στις προεπιλογές',
     'value.scaleWindow': 'Προσαρμογή στο παράθυρο',
     'value.system': 'Σύστημα',
@@ -594,7 +622,11 @@ export const Localization = {
     'message.invalidJson': 'Η παρεχόμενη συμβολοσειρά διαμόρφωσης δεν είναι σε έγκυρη μορφή JSON. Ελέγξτε τη σύνταξη και δοκιμάστε ξανά.',
     'message.invalidConfigFormat': 'Σφάλμα διαμόρφωσης: Αναμένεται έγκυρη συμβολοσειρά JSON ή αντικείμενο. Ελέγξτε τη μορφή διαμόρφωσης.',
     'message.missingToolbarId': 'Το "toolbarId" λείπει ή δεν είναι συμβολοσειρά στην παρεχόμενη διαμόρφωση. Βεβαιωθείτε ότι έχει συμπεριληφθεί σωστά.',
-    'message.missingLicenseKey': 'Το "licenseKey" λείπει ή δεν είναι συμβολοσειρά στην παρεχόμενη διαμόρφωση. Βεβαιωθείτε ότι έχει συμπεριληφθεί σωστά.'    
+    'message.missingLicenseKey': 'Το "licenseKey" λείπει ή δεν είναι συμβολοσειρά στην παρεχόμενη διαμόρφωση. Βεβαιωθείτε ότι έχει συμπεριληφθεί σωστά.',
+    'action.applyConfiguration': 'Εφαρμογή διαμόρφωσης',
+    'action.resetDefault': 'Επαναφορά στις προεπιλεγμένες ρυθμίσεις',
+    'text.configPresetsInvite': 'Ενημέρωσε και βελτίωσε τις προεπιλεγμένες διαμορφώσεις',
+    'text.joinUs': 'Γίνε μέλος μας'
   },
   'en-US': {
     'abbr.maximum': 'Max.',
@@ -724,7 +756,6 @@ export const Localization = {
     'label.toolbarId': 'ID de la Barra de Herramientas',
     'label.unit': 'Unidad de Trabajo (Regla, Cuadrícula)',
     'label.version': 'Versión',
-    'value.language': 'Español (Spanish)',
     'unit.cm': 'Centímetros',
     'unit.em': 'Em',
     'unit.in': 'Pulgadas',
@@ -733,6 +764,7 @@ export const Localization = {
     'unit.pt': 'Puntos',
     'unit.px': 'Píxeles',
     'unit.rem': 'Root Em',
+    'value.language': 'Español (Spanish)',
     'value.scaleReset': 'Restablecer a Predeterminado',
     'value.scaleWindow': 'Ajustar a la Ventana',
     'value.system': 'Sistema',
@@ -745,7 +777,11 @@ export const Localization = {
     'message.invalidJson': 'La cadena de configuración proporcionada no tiene un formato JSON válido. Revisa la sintaxis y vuelve a intentarlo.',
     'message.invalidConfigFormat': 'Error de configuración: Se esperaba una cadena JSON válida o un objeto. Revisa el formato de configuración.',
     'message.missingToolbarId': 'El "toolbarId" falta o no es una cadena en la configuración proporcionada. Asegúrate de que se haya incluido correctamente.',
-    'message.missingLicenseKey': 'El "licenseKey" falta o no es una cadena en la configuración proporcionada. Asegúrate de que se haya incluido correctamente.'
+    'message.missingLicenseKey': 'El "licenseKey" falta o no es una cadena en la configuración proporcionada. Asegúrate de que se haya incluido correctamente.',
+    'action.applyConfiguration': 'Aplicar configuración',
+    'action.resetDefault': 'Restablecer a la configuración predeterminada',
+    'text.configPresetsInvite': 'Actualiza y mejora las configuraciones predefinidas',
+    'text.joinUs': 'Únete a nosotros'
   },
   'et-EE': {
     'abbr.maximum': 'Max.',
@@ -797,7 +833,6 @@ export const Localization = {
     'label.toolbarId': 'Tööriistariba ID',
     'label.unit': 'Tööühik (joonlaud, ruudustik)',
     'label.version': 'Versioon',
-    'value.language': 'Eesti (Estonian)',
     'unit.cm': 'Sentimeetrid',
     'unit.em': 'Em',
     'unit.in': 'Tollid',
@@ -806,6 +841,7 @@ export const Localization = {
     'unit.pt': 'Punktid',
     'unit.px': 'Pikslid',
     'unit.rem': 'Root Em',
+    'value.language': 'Eesti (Estonian)',
     'value.scaleReset': 'Lähtesta vaikeseadele',
     'value.scaleWindow': 'Kohanda aknaga',
     'value.system': 'Süsteem',
@@ -818,7 +854,11 @@ export const Localization = {
     'message.invalidJson': 'Esitatud konfiguratsiooni string pole kehtivas JSON vormingus. Kontrollige süntaksit ja proovige uuesti.',
     'message.invalidConfigFormat': 'Konfiguratsiooni viga: Ootame kehtivat JSON stringi või objekti. Palun kontrollige konfiguratsiooni vormingut.',
     'message.missingToolbarId': 'Esitatud konfiguratsioonis puudub "toolbarId" või see ei ole string. Palun veenduge, et see on õigesti lisatud.',
-    'message.missingLicenseKey': 'Esitatud konfiguratsioonis puudub "licenseKey" või see ei ole string. Palun veenduge, et see on õigesti lisatud.'
+    'message.missingLicenseKey': 'Esitatud konfiguratsioonis puudub "licenseKey" või see ei ole string. Palun veenduge, et see on õigesti lisatud.',
+    'action.applyConfiguration': 'Rakenda konfiguratsioon',
+    'action.resetDefault': 'Taasta vaikeseaded',
+    'text.configPresetsInvite': 'Uuenda ja paranda konfiguratsiooni seadeid',
+    'text.joinUs': 'Liitu meiega'
   },
   'fa-IR': {
     'abbr.maximum': 'حداکثر.',
@@ -870,7 +910,6 @@ export const Localization = {
     'label.toolbarId': 'شناسه نوار ابزار',
     'label.unit': 'واحد کاری (خط‌کش، شبکه)',
     'label.version': 'نسخه',
-    'value.language': 'فارسی (Persian)',
     'unit.cm': 'سانتیمتر',
     'unit.em': 'ام',
     'unit.in': 'اینچ',
@@ -879,6 +918,7 @@ export const Localization = {
     'unit.pt': 'نقطه',
     'unit.px': 'پیکسل',
     'unit.rem': 'ریشه ام',
+    'value.language': 'فارسی (Persian)',
     'value.scaleReset': 'تنظیم مجدد به پیش فرض',
     'value.scaleWindow': 'تناسب با پنجره',
     'value.system': 'سیستم',
@@ -891,7 +931,11 @@ export const Localization = {
     'message.invalidJson': 'رشته پیکربندی ارائه شده در قالب JSON معتبر نیست. لطفاً نحو را بررسی کرده و دوباره امتحان کنید.',
     'message.invalidConfigFormat': 'خطای پیکربندی: انتظار می‌رود یک رشته JSON معتبر یا یک شیء باشد. لطفاً قالب پیکربندی را بررسی کنید.',
     'message.missingToolbarId': 'در پیکربندی ارائه شده "toolbarId" وجود ندارد یا رشته‌ای نیست. لطفاً اطمینان حاصل کنید که به درستی درج شده است.',
-    'message.missingLicenseKey': 'در پیکربندی ارائه شده "licenseKey" وجود ندارد یا رشته‌ای نیست. لطفاً اطمینان حاصل کنید که به درستی درج شده است.'
+    'message.missingLicenseKey': 'در پیکربندی ارائه شده "licenseKey" وجود ندارد یا رشته‌ای نیست. لطفاً اطمینان حاصل کنید که به درستی درج شده است.',
+    'action.applyConfiguration': 'اعمال تنظیمات',
+    'action.resetDefault': 'بازنشانی به تنظیمات پیش‌فرض',
+    'text.configPresetsInvite': 'به‌روزرسانی و بهبود پیش‌تنظیمات پیکربندی',
+    'text.joinUs': 'به ما بپیوندید'
   },
   'fi-FI': {
     'abbr.maximum': 'Max.',
@@ -943,7 +987,6 @@ export const Localization = {
     'label.toolbarId': 'Työkalupalkin ID',
     'label.unit': 'Työyksikkö (viivain, ruudukko)',
     'label.version': 'Versio',
-    'value.language': 'Suomi (Finnish)',
     'unit.cm': 'Senttimetrit',
     'unit.em': 'Em',
     'unit.in': 'Tuuma',
@@ -952,6 +995,7 @@ export const Localization = {
     'unit.pt': 'Pisteet',
     'unit.px': 'Pikselit',
     'unit.rem': 'Root Em',
+    'value.language': 'Suomi (Finnish)',
     'value.scaleReset': 'Palauta oletukseen',
     'value.scaleWindow': 'Sovita ikkunaan',
     'value.system': 'Järjestelmä',
@@ -964,7 +1008,11 @@ export const Localization = {
     'message.invalidJson': 'Annettu konfiguraatiosarja ei ole kelvollisessa JSON-muodossa. Tarkista syntaksi ja yritä uudelleen.',
     'message.invalidConfigFormat': 'Konfiguraatiovirhe: odotettiin kelvollista JSON-sarjaa tai objektia. Tarkista konfiguraation muoto.',
     'message.missingToolbarId': 'Annetussa konfiguraatiossa puuttuu "toolbarId" tai se ei ole sarja. Varmista, että se on oikein mukana.',
-    'message.missingLicenseKey': 'Annetussa konfiguraatiossa puuttuu "licenseKey" tai se ei ole sarja. Varmista, että se on oikein mukana.'
+    'message.missingLicenseKey': 'Annetussa konfiguraatiossa puuttuu "licenseKey" tai se ei ole sarja. Varmista, että se on oikein mukana.',
+    'action.applyConfiguration': 'Ota kokoonpano käyttöön',
+    'action.resetDefault': 'Palauta oletusasetukset',
+    'text.configPresetsInvite': 'Päivitä ja paranna kokoonpanon esiasetuksia',
+    'text.joinUs': 'Liity mukaan'
   },
   'fr-FR': {
     'abbr.maximum': 'Max.',
@@ -1016,7 +1064,6 @@ export const Localization = {
     'label.toolbarId': 'ID de la barre d\'outils',
     'label.unit': 'Unité de travail (règle, grille)',
     'label.version': 'Version',
-    'value.language': 'Français (French)',
     'unit.cm': 'Centimètres',
     'unit.em': 'Em',
     'unit.in': 'Pouces',
@@ -1025,6 +1072,7 @@ export const Localization = {
     'unit.pt': 'Points',
     'unit.px': 'Pixels',
     'unit.rem': 'Root Em',
+    'value.language': 'Français (French)',
     'value.scaleReset': 'Réinitialiser par défaut',
     'value.scaleWindow': 'Ajuster à la fenêtre',
     'value.system': 'Système',
@@ -1037,7 +1085,11 @@ export const Localization = {
     'message.invalidJson': 'La chaîne de configuration fournie n\'est pas dans un format JSON valide. Veuillez vérifier la syntaxe et réessayer.',
     'message.invalidConfigFormat': 'Erreur de configuration : une chaîne JSON valide ou un objet était attendu. Veuillez vérifier le format de la configuration.',
     'message.missingToolbarId': 'L\'"toolbarId" est manquant ou n\'est pas une chaîne dans la configuration fournie. Veuillez vous assurer qu\'il est correctement inclus.',
-    'message.missingLicenseKey': 'La "licenseKey" est manquante ou n\'est pas une chaîne dans la configuration fournie. Veuillez vous assurer qu\'elle est correctement incluse.'
+    'message.missingLicenseKey': 'La "licenseKey" est manquante ou n\'est pas une chaîne dans la configuration fournie. Veuillez vous assurer qu\'elle est correctement incluse.',
+    'action.applyConfiguration': 'Appliquer la configuration',
+    'action.resetDefault': 'Réinitialiser aux paramètres par défaut',
+    'text.configPresetsInvite': 'Mettre à jour et améliorer les préréglages de configuration',
+    'text.joinUs': 'Rejoins-nous'
   },
   'gu-IN': {
     'abbr.maximum': 'મહત્તમ.',
@@ -1089,7 +1141,6 @@ export const Localization = {
     'label.toolbarId': 'ટૂલબાર આઈડી',
     'label.unit': 'કાર્ય એકમ (રૂલર, ગ્રીડ)',
     'label.version': 'આવૃત્તિ',
-    'value.language': 'ગુજરાતી (Gujarati)',
     'unit.cm': 'સેન્ટિમીટર્સ',
     'unit.em': 'એમ',
     'unit.in': 'ઇંચ',
@@ -1098,6 +1149,7 @@ export const Localization = {
     'unit.pt': 'પોઈન્ટ્સ',
     'unit.px': 'પિક્સેલ્સ',
     'unit.rem': 'રૂટ એમ',
+    'value.language': 'ગુજરાતી (Gujarati)',
     'value.scaleReset': 'મૂળ પર પરત કરો',
     'value.scaleWindow': 'વિન્ડો પર ફિટ કરો',
     'value.system': 'સિસ્ટમ',
@@ -1110,7 +1162,11 @@ export const Localization = {
     'message.invalidJson': 'પ્રદાન કરેલી રૂપરેખા સ્ટ્રિંગ માન્ય JSON ફોર્મેટમાં નથી. કૃપા કરીને શબદસંયોજન તપાસો અને ફરીથી પ્રયાસ કરો.',
     'message.invalidConfigFormat': 'રૂપરેખા ભૂલ: માન્ય JSON સ્ટ્રિંગ અથવા પદાર્થ અપેક્ષિત છે. કૃપા કરીને રૂપરેખા ફોર્મેટ ચકાસો.',
     'message.missingToolbarId': 'પ્રદાન કરેલી રૂપરેખામાં "toolbarId" ગાયબ છે અથવા તે સ્ટ્રિંગ નથી. કૃપા કરીને ખાતરી કરો કે તે યોગ્ય રીતે સમાવેશ થાય છે.',
-    'message.missingLicenseKey': 'પ્રદાન કરેલી રૂપરેખામાં "licenseKey" ગાયબ છે અથવા તે સ્ટ્રિંગ નથી. કૃપા કરીને ખાતરી કરો કે તે યોગ્ય રીતે સમાવેશ થાય છે.'
+    'message.missingLicenseKey': 'પ્રદાન કરેલી રૂપરેખામાં "licenseKey" ગાયબ છે અથવા તે સ્ટ્રિંગ નથી. કૃપા કરીને ખાતરી કરો કે તે યોગ્ય રીતે સમાવેશ થાય છે.',
+    'action.applyConfiguration': 'કોન્ફિગરેશન લાગુ કરો',
+    'action.resetDefault': 'મૂળભૂત સેટિંગ્સ પર ફરીથી સેટ કરો',
+    'text.configPresetsInvite': 'કોન્ફિગરેશન પ્રીસેટ્સને અપડેટ અને સુધારો',
+    'text.joinUs': 'અમારા સાથે જોડાઓ'
   },
   'he-IL': {
     'abbr.maximum': 'מקס.',
@@ -1162,7 +1218,6 @@ export const Localization = {
     'label.toolbarId': 'מזהה סרגל כלים',
     'label.unit': 'יחידת עבודה (סרגל, רשת)',
     'label.version': 'גרסה',
-    'value.language': 'עברית (Hebrew)',
     'unit.cm': 'סנטימטרים',
     'unit.em': 'Em',
     'unit.in': 'אינצ\'ים',
@@ -1171,6 +1226,7 @@ export const Localization = {
     'unit.pt': 'נקודות',
     'unit.px': 'פיקסלים',
     'unit.rem': 'Root Em',
+    'value.language': 'עברית (Hebrew)',
     'value.scaleReset': 'אפס לברירת מחדל',
     'value.scaleWindow': 'התאם לחלון',
     'value.system': 'מערכת',
@@ -1183,7 +1239,11 @@ export const Localization = {
     'message.invalidJson': 'מחרוזת התצורה שסופקה אינה בפורמט JSON חוקי. בדוק את התחביר ונסה שוב.',
     'message.invalidConfigFormat': 'שגיאת תצורה: ציפינו למחרוזת JSON חוקית או אובייקט. בדוק את פורמט התצורה.',
     'message.missingToolbarId': 'המזהה "toolbarId" חסר או לא מחרוזת בתצורה שסופקה. ודא שהוא כלול כראוי.',
-    'message.missingLicenseKey': 'המפתח "licenseKey" חסר או לא מחרוזת בתצורה שסופקה. ודא שהוא כלול כראוי.'
+    'message.missingLicenseKey': 'המפתח "licenseKey" חסר או לא מחרוזת בתצורה שסופקה. ודא שהוא כלול כראוי.',
+    'action.applyConfiguration': 'החל תצורה',
+    'action.resetDefault': 'איפוס להגדרות ברירת מחדל',
+    'text.configPresetsInvite': 'עדכן ושפר את הגדרות התצורה',
+    'text.joinUs': 'הצטרף אלינו'
   },
   'hi-IN': {
     'abbr.maximum': 'अधिकतम.',
@@ -1235,7 +1295,6 @@ export const Localization = {
     'label.toolbarId': 'उपकरण पट्टी ID',
     'label.unit': 'कार्य इकाई (रूलर, ग्रिड)',
     'label.version': 'संस्करण',
-    'value.language': 'हिंदी (Hindi)',
     'unit.cm': 'सेंटीमीटर',
     'unit.em': 'एम',
     'unit.in': 'इंच',
@@ -1244,6 +1303,7 @@ export const Localization = {
     'unit.pt': 'बिंदु',
     'unit.px': 'पिक्सेल',
     'unit.rem': 'रूट एम',
+    'value.language': 'हिंदी (Hindi)',
     'value.scaleReset': 'डिफ़ॉल्ट पर रीसेट करें',
     'value.scaleWindow': 'विंडो में फिट करें',
     'value.system': 'प्रणाली',
@@ -1256,7 +1316,11 @@ export const Localization = {
     'message.invalidJson': 'प्रदान की गई कॉन्फ़िगरेशन स्ट्रिंग एक मान्य JSON प्रारूप में नहीं है। कृपया वाक्य रचना की जाँच करें और पुनः प्रयास करें।',
     'message.invalidConfigFormat': 'कॉन्फ़िगरेशन त्रुटि: एक मान्य JSON स्ट्रिंग या ऑब्जेक्ट की अपेक्षा की जाती है। कृपया कॉन्फ़िगरेशन प्रारूप की समीक्षा करें।',
     'message.missingToolbarId': 'प्रदान की गई कॉन्फ़िगरेशन में "toolbarId" गायब है या स्ट्रिंग नहीं है। कृपया सुनिश्चित करें कि इसे सही तरीके से शामिल किया गया है।',
-    'message.missingLicenseKey': 'प्रदान की गई कॉन्फ़िगरेशन में "licenseKey" गायब है या स्ट्रिंग नहीं है। कृपया सुनिश्चित करें कि इसे सही तरीके से शामिल किया गया है।'
+    'message.missingLicenseKey': 'प्रदान की गई कॉन्फ़िगरेशन में "licenseKey" गायब है या स्ट्रिंग नहीं है। कृपया सुनिश्चित करें कि इसे सही तरीके से शामिल किया गया है।',
+    'action.applyConfiguration': 'कॉन्फ़िगरेशन लागू करें',
+    'action.resetDefault': 'डिफ़ॉल्ट सेटिंग्स पर रीसेट करें',
+    'text.configPresetsInvite': 'कॉन्फ़िगरेशन प्रीसेट्स को अपडेट और बेहतर करें',
+    'text.joinUs': 'हमसे जुड़ें'
   },
   'hr-HR': {
     'abbr.maximum': 'Maks.',
@@ -1308,7 +1372,6 @@ export const Localization = {
     'label.toolbarId': 'ID alatne trake',
     'label.unit': 'Radna jedinica (ravnalo, mreža)',
     'label.version': 'Verzija',
-    'value.language': 'Hrvatski (Croatian)',
     'unit.cm': 'Centimetri',
     'unit.em': 'Em',
     'unit.in': 'Inči',
@@ -1317,6 +1380,7 @@ export const Localization = {
     'unit.pt': 'Bodovi',
     'unit.px': 'Pikseli',
     'unit.rem': 'Root Em',
+    'value.language': 'Hrvatski (Croatian)',
     'value.scaleReset': 'Vrati na zadano',
     'value.scaleWindow': 'Prilagodi prozoru',
     'value.system': 'Sustav',
@@ -1329,7 +1393,11 @@ export const Localization = {
     'message.invalidJson': 'Pruženi konfiguracijski niz nije u važećem JSON formatu. Provjerite sintaksu i pokušajte ponovo.',
     'message.invalidConfigFormat': 'Pogreška konfiguracije: očekivao se valjani JSON niz ili objekt. Pregledajte format konfiguracije.',
     'message.missingToolbarId': 'U pruženoj konfiguraciji nedostaje "toolbarId" ili nije niz. Provjerite je li ispravno uključen.',
-    'message.missingLicenseKey': 'U pruženoj konfiguraciji nedostaje "licenseKey" ili nije niz. Provjerite je li ispravno uključen.'
+    'message.missingLicenseKey': 'U pruženoj konfiguraciji nedostaje "licenseKey" ili nije niz. Provjerite je li ispravno uključen.',
+    'action.applyConfiguration': 'Primijeni konfiguraciju',
+    'action.resetDefault': 'Vrati na zadane postavke',
+    'text.configPresetsInvite': 'Ažuriraj i poboljšaj konfiguracijske postavke',
+    'text.joinUs': 'Pridruži nam se'
   },
   'hu-HU': {
     'abbr.maximum': 'Max.',
@@ -1381,7 +1449,6 @@ export const Localization = {
     'label.toolbarId': 'Eszköztár azonosító',
     'label.unit': 'Munkaközeg (vonalzó, rács)',
     'label.version': 'Verzió',
-    'value.language': 'Magyar (Hungarian)',
     'unit.cm': 'Centiméter',
     'unit.em': 'Em',
     'unit.in': 'Hüvelyk',
@@ -1390,6 +1457,7 @@ export const Localization = {
     'unit.pt': 'Pont',
     'unit.px': 'Pixel',
     'unit.rem': 'Root Em',
+    'value.language': 'Magyar (Hungarian)',
     'value.scaleReset': 'Visszaállítás alapértelmezettre',
     'value.scaleWindow': 'Illeszkedjen az ablakhoz',
     'value.system': 'Rendszer',
@@ -1402,7 +1470,11 @@ export const Localization = {
     'message.invalidJson': 'A megadott konfigurációs karakterlánc nem érvényes JSON formátumban van. Kérjük, ellenőrizze a szintaxist, és próbálja újra.',
     'message.invalidConfigFormat': 'Konfigurációs hiba: érvényes JSON karakterláncot vagy objektumot vártunk. Kérjük, ellenőrizze a konfiguráció formátumát.',
     'message.missingToolbarId': 'A megadott konfigurációban hiányzik a "toolbarId" vagy nem karakterlánc. Kérjük, ellenőrizze, hogy megfelelően van-e belefoglalva.',
-    'message.missingLicenseKey': 'A megadott konfigurációban hiányzik a "licenseKey" vagy nem karakterlánc. Kérjük, ellenőrizze, hogy megfelelően van-e belefoglalva.'
+    'message.missingLicenseKey': 'A megadott konfigurációban hiányzik a "licenseKey" vagy nem karakterlánc. Kérjük, ellenőrizze, hogy megfelelően van-e belefoglalva.',
+    'action.applyConfiguration': 'Konfiguráció alkalmazása',
+    'action.resetDefault': 'Alapértelmezett beállítások visszaállítása',
+    'text.configPresetsInvite': 'Frissítse és javítsa a konfigurációs előbeállításokat',
+    'text.joinUs': 'Csatlakozz hozzánk'
   },
   'id-ID': {
     'abbr.maximum': 'Maks.',
@@ -1454,7 +1526,6 @@ export const Localization = {
     'label.toolbarId': 'ID Bilah Alat',
     'label.unit': 'Unit Kerja (Penggaris, Kisi)',
     'label.version': 'Versi',
-    'value.language': 'Bahasa Indonesia (Indonesian)',
     'unit.cm': 'Sentimeter',
     'unit.em': 'Em',
     'unit.in': 'Inci',
@@ -1463,6 +1534,7 @@ export const Localization = {
     'unit.pt': 'Poin',
     'unit.px': 'Piksel',
     'unit.rem': 'Root Em',
+    'value.language': 'Bahasa Indonesia (Indonesian)',
     'value.scaleReset': 'Setel Ulang ke Default',
     'value.scaleWindow': 'Sesuaikan dengan Jendela',
     'value.system': 'Sistem',
@@ -1475,7 +1547,11 @@ export const Localization = {
     'message.invalidJson': 'String konfigurasi yang diberikan tidak dalam format JSON yang valid. Harap periksa sintaks dan coba lagi.',
     'message.invalidConfigFormat': 'Kesalahan konfigurasi: Mengharapkan string JSON yang valid atau objek. Harap tinjau format konfigurasi.',
     'message.missingToolbarId': 'Dalam konfigurasi yang diberikan, "toolbarId" hilang atau bukan string. Harap pastikan itu disertakan dengan benar.',
-    'message.missingLicenseKey': 'Dalam konfigurasi yang diberikan, "licenseKey" hilang atau bukan string. Harap pastikan itu disertakan dengan benar.'
+    'message.missingLicenseKey': 'Dalam konfigurasi yang diberikan, "licenseKey" hilang atau bukan string. Harap pastikan itu disertakan dengan benar.',
+    'action.applyConfiguration': 'Terapkan Konfigurasi',
+    'action.resetDefault': 'Kembalikan ke Pengaturan Default',
+    'text.configPresetsInvite': 'Perbarui dan tingkatkan preset konfigurasi',
+    'text.joinUs': 'Bergabunglah dengan kami'
   },
   'it-IT': {
     'abbr.maximum': 'Max.',
@@ -1527,7 +1603,6 @@ export const Localization = {
     'label.toolbarId': 'ID barra degli strumenti',
     'label.unit': 'Unità di lavoro (righello, griglia)',
     'label.version': 'Versione',
-    'value.language': 'Italiano (Italian)',
     'unit.cm': 'Centimetri',
     'unit.em': 'Em',
     'unit.in': 'Pollici',
@@ -1536,6 +1611,7 @@ export const Localization = {
     'unit.pt': 'Punti',
     'unit.px': 'Pixel',
     'unit.rem': 'Root Em',
+    'value.language': 'Italiano (Italian)',
     'value.scaleReset': 'Reimposta su predefinito',
     'value.scaleWindow': 'Adatta alla finestra',
     'value.system': 'Sistema',
@@ -1548,7 +1624,11 @@ export const Localization = {
     'message.invalidJson': 'La stringa di configurazione fornita non è in un formato JSON valido. Verifica la sintassi e riprova.',
     'message.invalidConfigFormat': 'Errore di configurazione: è prevista una stringa JSON valida o un oggetto. Rivedi il formato della configurazione.',
     'message.missingToolbarId': 'Nella configurazione fornita manca "toolbarId" o non è una stringa. Assicurati che sia incluso correttamente.',
-    'message.missingLicenseKey': 'Nella configurazione fornita manca "licenseKey" o non è una stringa. Assicurati che sia incluso correttamente.'
+    'message.missingLicenseKey': 'Nella configurazione fornita manca "licenseKey" o non è una stringa. Assicurati che sia incluso correttamente.',
+    'action.applyConfiguration': 'Applica configurazione',
+    'action.resetDefault': 'Ripristina impostazioni predefinite',
+    'text.configPresetsInvite': 'Aggiorna e migliora i preset di configurazione',
+    'text.joinUs': 'Unisciti a noi'
   },
   'ja-JP': {
     'abbr.maximum': '最大.',
@@ -1600,7 +1680,6 @@ export const Localization = {
     'label.toolbarId': 'ツールバーID',
     'label.unit': '作業単位（ルーラー、グリッド）',
     'label.version': 'バージョン',
-    'value.language': '日本語 (Japanese)',
     'unit.cm': 'センチメートル',
     'unit.em': 'Em',
     'unit.in': 'インチ',
@@ -1609,6 +1688,7 @@ export const Localization = {
     'unit.pt': 'ポイント',
     'unit.px': 'ピクセル',
     'unit.rem': 'ルートEm',
+    'value.language': '日本語 (Japanese)',
     'value.scaleReset': 'デフォルトにリセットする',
     'value.scaleWindow': 'ウィンドウに合わせる',
     'value.system': 'システム',
@@ -1621,7 +1701,11 @@ export const Localization = {
     'message.invalidJson': '提供された構成文字列は有効なJSON形式ではありません。構文を確認して再試行してください。',
     'message.invalidConfigFormat': '構成エラー：有効なJSON文字列またはオブジェクトを予期しています。構成形式を確認してください。',
     'message.missingToolbarId': '提供された構成に「toolbarId」がないか、文字列ではありません。正しく含まれていることを確認してください。',
-    'message.missingLicenseKey': '提供された構成に「licenseKey」がないか、文字列ではありません。正しく含まれていることを確認してください。'
+    'message.missingLicenseKey': '提供された構成に「licenseKey」がないか、文字列ではありません。正しく含まれていることを確認してください。',
+    'action.applyConfiguration': '設定を適用',
+    'action.resetDefault': 'デフォルト設定にリセット',
+    'text.configPresetsInvite': '設定プリセットを更新して強化',
+    'text.joinUs': '参加する'
   },
   'ko-KR': {
     'abbr.maximum': '최대',
@@ -1673,7 +1757,6 @@ export const Localization = {
     'label.toolbarId': '도구 모음 ID',
     'label.unit': '작업 단위(자, 그리드)',
     'label.version': '버전',
-    'value.language': '한국어 (대한민국)',
     'unit.cm': '센티미터',
     'unit.em': 'Em',
     'unit.in': '인치',
@@ -1682,6 +1765,7 @@ export const Localization = {
     'unit.pt': '포인트',
     'unit.px': '픽셀',
     'unit.rem': '루트 Em',
+    'value.language': '한국어 (대한민국)',
     'value.scaleReset': '기본값으로 재설정',
     'value.scaleWindow': '창에 맞추기',
     'value.system': '시스템',
@@ -1694,7 +1778,11 @@ export const Localization = {
     'message.invalidJson': '제공된 구성 문자열이 유효한 JSON 형식이 아닙니다. 구문을 확인하고 다시 시도하십시오.',
     'message.invalidConfigFormat': '구성 오류: 유효한 JSON 문자열 또는 개체가 필요합니다. 구성 형식을 검토하십시오.',
     'message.missingToolbarId': '제공된 구성에서 \'toolbarId\'가 누락되었거나 문자열이 아닙니다. 올바르게 포함되었는지 확인하십시오.',
-    'message.missingLicenseKey': '제공된 구성에서 \'licenseKey\'가 누락되었거나 문자열이 아닙니다. 올바르게 포함되었는지 확인하십시오.'
+    'message.missingLicenseKey': '제공된 구성에서 \'licenseKey\'가 누락되었거나 문자열이 아닙니다. 올바르게 포함되었는지 확인하십시오.',
+    'action.applyConfiguration': '구성 적용',
+    'action.resetDefault': '기본 설정으로 재설정',
+    'text.configPresetsInvite': '구성 프리셋 업데이트 및 향상',
+    'text.joinUs': '가입하세요'
   },
   'lv-LV': {
     'abbr.maximum': 'Maks.',
@@ -1746,7 +1834,6 @@ export const Localization = {
     'label.toolbarId': 'Rīkjoslas ID',
     'label.unit': 'Darbības vienība (lineāls, režģis)',
     'label.version': 'Versija',
-    'value.language': 'Latviešu (Latvija)',
     'unit.cm': 'Centimetri',
     'unit.em': 'Em',
     'unit.in': 'Collas',
@@ -1755,6 +1842,7 @@ export const Localization = {
     'unit.pt': 'Punkti',
     'unit.px': 'Pikseļi',
     'unit.rem': 'Saknes Em',
+    'value.language': 'Latviešu (Latvija)',
     'value.scaleReset': 'Atiestatīt uz noklusējuma',
     'value.scaleWindow': 'Ielīmēt logam',
     'value.system': 'Sistēma',
@@ -1767,7 +1855,11 @@ export const Localization = {
     'message.invalidJson': 'Nodrošinātais konfigurācijas virkne nav derīgā JSON formātā. Lūdzu, pārbaudiet sintaksi un mēģiniet vēlreiz.',
     'message.invalidConfigFormat': 'Konfigurācijas kļūda: Gatavā JSON virkne vai objekts tiek sagaidīts. Lūdzu, pārskatiet konfigurācijas formātu.',
     'message.missingToolbarId': 'Trūkst \'toolbarId\' vai tas nav virkne norādītajā konfigurācijā. Lūdzu, pārliecinieties, ka tas ir pareizi iekļauts.',
-    'message.missingLicenseKey': 'Trūkst \'licenseKey\' vai tas nav virkne norādītajā konfigurācijā. Lūdzu, pārliecinieties, ka tas ir pareizi iekļauts.'
+    'message.missingLicenseKey': 'Trūkst \'licenseKey\' vai tas nav virkne norādītajā konfigurācijā. Lūdzu, pārliecinieties, ka tas ir pareizi iekļauts.',
+    'action.applyConfiguration': 'Taikyti konfigūraciją',
+    'action.resetDefault': 'Atstatyti į numatytuosius nustatymus',
+    'text.configPresetsInvite': 'Atnaujinkite ir patobulinkite konfigūracijos nustatymus',
+    'text.joinUs': 'Prisijunk prie mūsų'
   },
   'lt-LT': {
     'abbr.maximum': 'Max.',
@@ -1819,7 +1911,6 @@ export const Localization = {
     'label.toolbarId': 'Įrankių juostos ID',
     'label.unit': 'Darbo vienetas (linealas, tinklelis)',
     'label.version': 'Versija',
-    'value.language': 'Lietuvių (Lietuva)',
     'unit.cm': 'Centimetrai',
     'unit.em': 'Em',
     'unit.in': 'Coliai',
@@ -1828,6 +1919,7 @@ export const Localization = {
     'unit.pt': 'Taškai',
     'unit.px': 'Pikseliai',
     'unit.rem': 'Šaknies Em',
+    'value.language': 'Lietuvių (Lietuva)',
     'value.scaleReset': 'Atstatyti į numatytuosius',
     'value.scaleWindow': 'Priderinti prie lango',
     'value.system': 'Sistema',
@@ -1840,7 +1932,11 @@ export const Localization = {
     'message.invalidJson': 'Pateikta konfigūracijos eilutė nėra teisingo JSON formato. Patikrinkite sintaksę ir bandykite dar kartą.',
     'message.invalidConfigFormat': 'Konfigūracijos klaida: Tikėtasi teisingo JSON eilutės arba objekto. Patikrinkite konfigūracijos formatą.',
     'message.missingToolbarId': 'Trūksta „toolbarId“ arba jis nėra eilutėje, nurodytoje konfigūracijoje. Įsitikinkite, kad jis teisingai įtrauktas.',
-    'message.missingLicenseKey': 'Trūksta „licenseKey“ arba jis nėra eilutėje, nurodytoje konfigūracijoje. Įsitikinkite, kad jis teisingai įtrauktas.'
+    'message.missingLicenseKey': 'Trūksta „licenseKey“ arba jis nėra eilutėje, nurodytoje konfigūracijoje. Įsitikinkite, kad jis teisingai įtrauktas.',
+    'action.applyConfiguration': 'Lietot konfigurāciju',
+    'action.resetDefault': 'Atiestatīt uz noklusējuma iestatījumiem',
+    'text.configPresetsInvite': 'Atjaunojiet un uzlabojiet konfigurācijas iestatījumus',
+    'text.joinUs': 'Pievienojies mums'
   },
   'nl-BE': {
     'abbr.maximum': 'Max.',
@@ -1892,7 +1988,6 @@ export const Localization = {
     'label.toolbarId': 'Werkbalk-ID',
     'label.unit': 'Werk eenheid (liniaal, raster)',
     'label.version': 'Versie',
-    'value.language': 'Nederlands (België)',
     'unit.cm': 'Centimeter',
     'unit.em': 'Em',
     'unit.in': 'Inch',
@@ -1901,6 +1996,7 @@ export const Localization = {
     'unit.pt': 'Punten',
     'unit.px': 'Pixels',
     'unit.rem': 'Root Em',
+    'value.language': 'Nederlands (België)',
     'value.scaleReset': 'Terugzetten naar standaard',
     'value.scaleWindow': 'Passend maken aan venster',
     'value.system': 'Systeem',
@@ -1913,7 +2009,11 @@ export const Localization = {
     'message.invalidJson': 'De verstrekte configuratiestring is geen geldig JSON-formaat. Controleer de syntaxis en probeer het opnieuw.',
     'message.invalidConfigFormat': 'Configuratiefout: Er wordt een geldige JSON-string of een object verwacht. Controleer het configuratieformaat.',
     'message.missingToolbarId': 'De \'toolbarId\' ontbreekt of is geen string in de verstrekte configuratie. Zorg ervoor dat deze correct is opgenomen.',
-    'message.missingLicenseKey': 'De \'licenseKey\' ontbreekt of is geen string in de verstrekte configuratie. Zorg ervoor dat deze correct is opgenomen.'
+    'message.missingLicenseKey': 'De \'licenseKey\' ontbreekt of is geen string in de verstrekte configuratie. Zorg ervoor dat deze correct is opgenomen.',
+    'action.applyConfiguration': 'Configuratie toepassen',
+    'action.resetDefault': 'Herstellen naar standaardinstellingen',
+    'text.configPresetsInvite': 'Werk de configuratiepresets bij en verbeter ze',
+    'text.joinUs': 'Doe met ons mee'
   },
   'nl-NL': {
     'abbr.maximum': 'Max.',
@@ -1965,7 +2065,6 @@ export const Localization = {
     'label.toolbarId': 'Werkbalk-ID',
     'label.unit': 'Werk eenheid (liniaal, raster)',
     'label.version': 'Versie',
-    'value.language': 'Nederlands (Nederland)',
     'unit.cm': 'Centimeter',
     'unit.em': 'Em',
     'unit.in': 'Inch',
@@ -1974,6 +2073,7 @@ export const Localization = {
     'unit.pt': 'Punten',
     'unit.px': 'Pixels',
     'unit.rem': 'Root Em',
+    'value.language': 'Nederlands (Nederland)',
     'value.scaleReset': 'Terugzetten naar standaard',
     'value.scaleWindow': 'Passend maken aan venster',
     'value.system': 'Systeem',
@@ -1986,7 +2086,11 @@ export const Localization = {
     'message.invalidJson': 'De verstrekte configuratiestring is geen geldig JSON-formaat. Controleer de syntaxis en probeer het opnieuw.',
     'message.invalidConfigFormat': 'Configuratiefout: Er wordt een geldige JSON-string of een object verwacht. Controleer het configuratieformaat.',
     'message.missingToolbarId': 'De \'toolbarId\' ontbreekt of is geen string in de verstrekte configuratie. Zorg ervoor dat deze correct is opgenomen.',
-    'message.missingLicenseKey': 'De \'licenseKey\' ontbreekt of is geen string in de verstrekte configuratie. Zorg ervoor dat deze correct is opgenomen.'
+    'message.missingLicenseKey': 'De \'licenseKey\' ontbreekt of is geen string in de verstrekte configuratie. Zorg ervoor dat deze correct is opgenomen.',
+    'action.applyConfiguration': 'Configuratie toepassen',
+    'action.resetDefault': 'Herstellen naar standaardinstellingen',
+    'text.configPresetsInvite': 'Werk de configuratiepresets bij en verbeter ze',
+    'text.joinUs': 'Doe met ons mee'
   },
   'no-NO': {
     'abbr.maximum': 'Maks.',
@@ -2038,7 +2142,6 @@ export const Localization = {
     'label.toolbarId': 'Verktøylinje-ID',
     'label.unit': 'Arbeidsenhet (linjal, rutenett)',
     'label.version': 'Versjon',
-    'value.language': 'Norsk (Norge)',
     'unit.cm': 'Centimeter',
     'unit.em': 'Em',
     'unit.in': 'Tommer',
@@ -2047,6 +2150,7 @@ export const Localization = {
     'unit.pt': 'Punkter',
     'unit.px': 'Piksler',
     'unit.rem': 'Rot Em',
+    'value.language': 'Norsk (Norge)',
     'value.scaleReset': 'Tilbakestill til standard',
     'value.scaleWindow': 'Tilpass til vinduet',
     'value.system': 'System',
@@ -2059,7 +2163,11 @@ export const Localization = {
     'message.invalidJson': 'Den oppgitte konfigurasjonsstrengen er ikke i gyldig JSON-format. Vennligst sjekk syntaksen og prøv igjen.',
     'message.invalidConfigFormat': 'Konfigurasjonsfeil: Forventet en gyldig JSON-streng eller et objekt. Vennligst revider konfigurasjonsformatet.',
     'message.missingToolbarId': 'Mangler \'toolbarId\' eller det er ikke en streng i den angitte konfigurasjonen. Forsikre deg om at den er riktig inkludert.',
-    'message.missingLicenseKey': 'Mangler \'licenseKey\' eller det er ikke en streng i den angitte konfigurasjonen. Forsikre deg om at den er riktig inkludert.'
+    'message.missingLicenseKey': 'Mangler \'licenseKey\' eller det er ikke en streng i den angitte konfigurasjonen. Forsikre deg om at den er riktig inkludert.',
+    'action.applyConfiguration': 'Bruk konfigurasjon',
+    'action.resetDefault': 'Tilbakestill til standardinnstillinger',
+    'text.configPresetsInvite': 'Oppdater og forbedre konfigurasjonsinnstillingene',
+    'text.joinUs': 'Bli med oss'
   },
   'pl-PL': {
     'abbr.maximum': 'Maks.',
@@ -2111,7 +2219,6 @@ export const Localization = {
     'label.toolbarId': 'Identyfikator paska narzędzi',
     'label.unit': 'Jednostka robocza (linijka, siatka)',
     'label.version': 'Wersja',
-    'value.language': 'Polski (Polska)',
     'unit.cm': 'Centymetry',
     'unit.em': 'Em',
     'unit.in': 'Cale',
@@ -2120,6 +2227,7 @@ export const Localization = {
     'unit.pt': 'Punkty',
     'unit.px': 'Piksele',
     'unit.rem': 'Korzeń Em',
+    'value.language': 'Polski (Polska)',
     'value.scaleReset': 'Zresetuj do domyślnego',
     'value.scaleWindow': 'Dopasuj do okna',
     'value.system': 'System',
@@ -2132,7 +2240,11 @@ export const Localization = {
     'message.invalidJson': 'Podany ciąg konfiguracyjny nie jest w prawidłowym formacie JSON. Sprawdź składnię i spróbuj ponownie.',
     'message.invalidConfigFormat': 'Błąd konfiguracji: Oczekiwano prawidłowego ciągu JSON lub obiektu. Sprawdź format konfiguracji.',
     'message.missingToolbarId': 'Identyfikator "toolbarId" jest nieobecny lub nie jest ciągiem znaków w podanej konfiguracji. Upewnij się, że jest poprawnie uwzględniony.',
-    'message.missingLicenseKey': 'Brakuje "licenseKey" lub nie jest ciągiem znaków w podanej konfiguracji. Upewnij się, że jest poprawnie uwzględniony.'
+    'message.missingLicenseKey': 'Brakuje "licenseKey" lub nie jest ciągiem znaków w podanej konfiguracji. Upewnij się, że jest poprawnie uwzględniony.',
+    'action.applyConfiguration': 'Zastosuj konfigurację',
+    'action.resetDefault': 'Przywróć domyślne ustawienia',
+    'text.configPresetsInvite': 'Zaktualizuj i ulepsz ustawienia konfiguracji',
+    'text.joinUs': 'Dołącz do nas'
   },
   'pt-BR': {
     'abbr.maximum': 'Máx.',
@@ -2184,7 +2296,6 @@ export const Localization = {
     'label.toolbarId': 'ID da Barra de Ferramentas',
     'label.unit': 'Unidade de Trabalho (Régua, Grade)',
     'label.version': 'Versão',
-    'value.language': 'Português (Brasil)',
     'unit.cm': 'Centímetros',
     'unit.em': 'Em',
     'unit.in': 'Polegadas',
@@ -2193,6 +2304,7 @@ export const Localization = {
     'unit.pt': 'Pontos',
     'unit.px': 'Pixels',
     'unit.rem': 'Root Em',
+    'value.language': 'Português (Brasil)',
     'value.scaleReset': 'Redefinir para Padrão',
     'value.scaleWindow': 'Ajustar à Janela',
     'value.system': 'Sistema',
@@ -2205,7 +2317,11 @@ export const Localization = {
     'message.invalidJson': 'A string de configuração fornecida não está em um formato JSON válido. Verifique a sintaxe e tente novamente.',
     'message.invalidConfigFormat': 'Erro de configuração: Esperava-se uma string JSON válida ou um objeto. Por favor, revise o formato da configuração.',
     'message.missingToolbarId': 'O "toolbarId" está ausente ou não é uma string na configuração fornecida. Por favor, certifique-se de que está corretamente incluído.',
-    'message.missingLicenseKey': 'A "licenseKey" está ausente ou não é uma string na configuração fornecida. Por favor, certifique-se de que está corretamente incluída.'
+    'message.missingLicenseKey': 'A "licenseKey" está ausente ou não é uma string na configuração fornecida. Por favor, certifique-se de que está corretamente incluída.',
+    'action.applyConfiguration': 'Aplicar Configuração',
+    'action.resetDefault': 'Redefinir para Configurações Padrão',
+    'text.configPresetsInvite': 'Atualize e melhore as predefinições de configuração',
+    'text.joinUs': 'Junte-se a nós'
   },
   'pt-PT': {
     'abbr.maximum': 'Máx.',
@@ -2257,7 +2373,6 @@ export const Localization = {
     'label.toolbarId': 'ID da Barra de Ferramentas',
     'label.unit': 'Unidade de Trabalho (Régua, Grade)',
     'label.version': 'Versão',
-    'value.language': 'Português (Portugal)',
     'unit.cm': 'Centímetros',
     'unit.em': 'Em',
     'unit.in': 'Polegadas',
@@ -2266,6 +2381,7 @@ export const Localization = {
     'unit.pt': 'Pontos',
     'unit.px': 'Pixels',
     'unit.rem': 'Root Em',
+    'value.language': 'Português (Portugal)',
     'value.scaleReset': 'Redefinir para Padrão',
     'value.scaleWindow': 'Ajustar à Janela',
     'value.system': 'Sistema',
@@ -2278,7 +2394,11 @@ export const Localization = {
     'message.invalidJson': 'A string de configuração fornecida não está em um formato JSON válido. Verifique a sintaxe e tente novamente.',
     'message.invalidConfigFormat': 'Erro de configuração: Esperava-se uma string JSON válida ou um objeto. Por favor, revise o formato da configuração.',
     'message.missingToolbarId': 'O "toolbarId" está ausente ou não é uma string na configuração fornecida. Por favor, certifique-se de que está corretamente incluído.',
-    'message.missingLicenseKey': 'A "licenseKey" está ausente ou não é uma string na configuração fornecida. Por favor, certifique-se de que está corretamente incluída.'
+    'message.missingLicenseKey': 'A "licenseKey" está ausente ou não é uma string na configuração fornecida. Por favor, certifique-se de que está corretamente incluída.',
+    'action.applyConfiguration': 'Aplicar Configuração',
+    'action.resetDefault': 'Redefinir para Configurações Padrão',
+    'text.configPresetsInvite': 'Atualize e melhore as predefinições de configuração',
+    'text.joinUs': 'Junte-se a nós'
   },
   'ro-RO': {
     'abbr.maximum': 'Max.',
@@ -2330,7 +2450,6 @@ export const Localization = {
     'label.toolbarId': 'ID-ul Barei de Unelte',
     'label.unit': 'Unitate de Lucru (Riglă, Grilă)',
     'label.version': 'Versiune',
-    'value.language': 'Română (România)',
     'unit.cm': 'Centimetri',
     'unit.em': 'Em',
     'unit.in': 'Inci',
@@ -2339,6 +2458,7 @@ export const Localization = {
     'unit.pt': 'Puncte',
     'unit.px': 'Pixeli',
     'unit.rem': 'Root Em',
+    'value.language': 'Română (România)',
     'value.scaleReset': 'Resetează la Implicit',
     'value.scaleWindow': 'Potrivește la Fereastră',
     'value.system': 'Sistem',
@@ -2351,7 +2471,11 @@ export const Localization = {
     'message.invalidJson': 'Șirul de configurație furnizat nu este într-un format JSON valid. Vă rugăm să verificați sintaxa și să încercați din nou.',
     'message.invalidConfigFormat': 'Eroare de configurare: Se așteaptă un șir JSON valid sau un obiect. Vă rugăm să revizuiți formatul de configurare.',
     'message.missingToolbarId': 'ID-ul "toolbarId" lipsește sau nu este un șir în configurația furnizată. Vă rugăm să vă asigurați că este corect inclus.',
-    'message.missingLicenseKey': 'Cheia "licenseKey" lipsește sau nu este un șir în configurația furnizată. Vă rugăm să vă asigurați că este corect inclusă.'
+    'message.missingLicenseKey': 'Cheia "licenseKey" lipsește sau nu este un șir în configurația furnizată. Vă rugăm să vă asigurați că este corect inclusă.',
+    'action.applyConfiguration': 'Aplică configurația',
+    'action.resetDefault': 'Resetează la setările implicite',
+    'text.configPresetsInvite': 'Actualizează și îmbunătățește setările de configurare',
+    'text.joinUs': 'Alătură-te nouă'
   },
   'ru-RU': {
     'abbr.maximum': 'Макс.',
@@ -2403,7 +2527,6 @@ export const Localization = {
     'label.toolbarId': 'ID панели инструментов',
     'label.unit': 'Рабочая единица (линейка, сетка)',
     'label.version': 'Версия',
-    'value.language': 'Русский (Россия)',
     'unit.cm': 'Сантиметры',
     'unit.em': 'Em',
     'unit.in': 'Дюймы',
@@ -2412,6 +2535,7 @@ export const Localization = {
     'unit.pt': 'Пункты',
     'unit.px': 'Пиксели',
     'unit.rem': 'Корневой Em',
+    'value.language': 'Русский (Россия)',
     'value.scaleReset': 'Сбросить к настройкам по умолчанию',
     'value.scaleWindow': 'Подогнать под окно',
     'value.system': 'Система',
@@ -2424,7 +2548,11 @@ export const Localization = {
     'message.invalidJson': 'Предоставленная строка конфигурации не является допустимым форматом JSON. Пожалуйста, проверьте синтаксис и попробуйте снова.',
     'message.invalidConfigFormat': 'Ошибка конфигурации: ожидалась допустимая строка JSON или объект. Пожалуйста, пересмотрите формат конфигурации.',
     'message.missingToolbarId': 'Отсутствует "toolbarId" или это не строка в предоставленной конфигурации. Пожалуйста, убедитесь, что она правильно включена.',
-    'message.missingLicenseKey': 'Отсутствует "licenseKey" или это не строка в предоставленной конфигурации. Пожалуйста, убедитесь, что она правильно включена.'
+    'message.missingLicenseKey': 'Отсутствует "licenseKey" или это не строка в предоставленной конфигурации. Пожалуйста, убедитесь, что она правильно включена.',
+    'action.applyConfiguration': 'Применить конфигурацию',
+    'action.resetDefault': 'Сбросить до настроек по умолчанию',
+    'text.configPresetsInvite': 'Обновите и улучшите настройки конфигурации',
+    'text.joinUs': 'Присоединяйтесь к нам'
   },
   'sk-SK': {
     'abbr.maximum': 'Max.',
@@ -2476,7 +2604,6 @@ export const Localization = {
     'label.toolbarId': 'ID panelu nástrojov',
     'label.unit': 'Pracovná jednotka (pravítko, mriežka)',
     'label.version': 'Verzia',
-    'value.language': 'Slovenský (Slovensko)',
     'unit.cm': 'Centimetre',
     'unit.em': 'Em',
     'unit.in': 'Palce',
@@ -2485,6 +2612,7 @@ export const Localization = {
     'unit.pt': 'Body',
     'unit.px': 'Pixely',
     'unit.rem': 'Root Em',
+    'value.language': 'Slovenský (Slovensko)',
     'value.scaleReset': 'Obnoviť na predvolené',
     'value.scaleWindow': 'Prispôsobiť oknu',
     'value.system': 'Systém',
@@ -2497,7 +2625,11 @@ export const Localization = {
     'message.invalidJson': 'Poskytnutý konfiguračný reťazec nie je v platnom formáte JSON. Skontrolujte syntax a skúste to znova.',
     'message.invalidConfigFormat': 'Chyba konfigurácie: Očakával sa platný reťazec JSON alebo objekt. Prehodnoťte prosím formát konfigurácie.',
     'message.missingToolbarId': 'ID "toolbarId" chýba alebo nie je reťazcom v poskytnutej konfigurácii. Uistite sa, že je správne zahrnuté.',
-    'message.missingLicenseKey': 'Chýba "licenseKey" alebo nie je reťazcom v poskytnutej konfigurácii. Uistite sa, že je správne zahrnuté.'
+    'message.missingLicenseKey': 'Chýba "licenseKey" alebo nie je reťazcom v poskytnutej konfigurácii. Uistite sa, že je správne zahrnuté.',
+    'action.applyConfiguration': 'Použiť konfiguráciu',
+    'action.resetDefault': 'Obnoviť predvolené nastavenia',
+    'text.configPresetsInvite': 'Aktualizujte a vylepšite prednastavenia konfigurácie',
+    'text.joinUs': 'Pripojte sa k nám'
   },
   'sl-SI': {
     'abbr.maximum': 'Maks.',
@@ -2549,7 +2681,6 @@ export const Localization = {
     'label.toolbarId': 'ID orodne vrstice',
     'label.unit': 'Delovna enota (ravnilo, mreža)',
     'label.version': 'Različica',
-    'value.language': 'Slovenščina (Slovenija)',
     'unit.cm': 'Centimetri',
     'unit.em': 'Em',
     'unit.in': 'Palci',
@@ -2558,6 +2689,7 @@ export const Localization = {
     'unit.pt': 'Točke',
     'unit.px': 'Piksli',
     'unit.rem': 'Root Em',
+    'value.language': 'Slovenščina (Slovenija)',
     'value.scaleReset': 'Ponastavi na privzeto',
     'value.scaleWindow': 'Prilagodi oknu',
     'value.system': 'Sistem',
@@ -2570,7 +2702,11 @@ export const Localization = {
     'message.invalidJson': 'Podana konfiguracijska niz ni v veljavni obliki JSON. Preverite sintakso in poskusite znova.',
     'message.invalidConfigFormat': 'Napaka pri konfiguraciji: pričakovan je veljaven niz JSON ali objekt. Preglejte obliko konfiguracije.',
     'message.missingToolbarId': 'ID "toolbarId" manjka ali ni niz v podani konfiguraciji. Prepričajte se, da je pravilno vključen.',
-    'message.missingLicenseKey': 'Manjka "licenseKey" ali ni niz v podani konfiguraciji. Prepričajte se, da je pravilno vključen.'
+    'message.missingLicenseKey': 'Manjka "licenseKey" ali ni niz v podani konfiguraciji. Prepričajte se, da je pravilno vključen.',
+    'action.applyConfiguration': 'Uporabi konfiguracijo',
+    'action.resetDefault': 'Ponastavi na privzete nastavitve',
+    'text.configPresetsInvite': 'Posodobite in izboljšajte nastavitve konfiguracije',
+    'text.joinUs': 'Pridruži se nam'
   },
   'sr-RS': {
     'abbr.maximum': 'Макс.',
@@ -2622,7 +2758,6 @@ export const Localization = {
     'label.toolbarId': 'ИД алатне траке',
     'label.unit': 'Радна јединица (лењир, мрежа)',
     'label.version': 'Верзија',
-    'value.language': 'Српски (Србија)',
     'unit.cm': 'Центиметри',
     'unit.em': 'Ем',
     'unit.in': 'Инчи',
@@ -2631,6 +2766,7 @@ export const Localization = {
     'unit.pt': 'Поени',
     'unit.px': 'Пиксели',
     'unit.rem': 'Корен Ем',
+    'value.language': 'Српски (Србија)',
     'value.scaleReset': 'Ресетуј на подразумевано',
     'value.scaleWindow': 'Прилагоди прозору',
     'value.system': 'Систем',
@@ -2643,7 +2779,11 @@ export const Localization = {
     'message.invalidJson': 'Достављени конфигурациони низ није у важећем JSON формату. Проверите синтаксу и покушајте поново.',
     'message.invalidConfigFormat': 'Грешка у конфигурацији: Очекиван је важећи JSON низ или објекат. Прегледајте формат конфигурације.',
     'message.missingToolbarId': 'Недостаје "toolbarId" или није низ у достављеној конфигурацији. Проверите да ли је правилно укључен.',
-    'message.missingLicenseKey': 'Недостаје "лиценцни кључ" или није низ у достављеној конфигурацији. Проверите да ли је правилно укључен.'
+    'message.missingLicenseKey': 'Недостаје "лиценцни кључ" или није низ у достављеној конфигурацији. Проверите да ли је правилно укључен.',
+    'action.applyConfiguration': 'Primeni konfiguraciju',
+    'action.resetDefault': 'Poništi na podrazumevana podešavanja',
+    'text.configPresetsInvite': 'Ažuriraj i poboljšaj konfiguracione postavke',
+    'text.joinUs': 'Pridruži nam se'
   },
   'sv-SE': {
     'abbr.maximum': 'Max.',
@@ -2695,7 +2835,6 @@ export const Localization = {
     'label.toolbarId': 'Verktygsfälts-ID',
     'label.unit': 'Arbetsenhet (linjal, rutnät)',
     'label.version': 'Version',
-    'value.language': 'Svenska (Sverige)',
     'unit.cm': 'Centimeter',
     'unit.em': 'Em',
     'unit.in': 'Tum',
@@ -2704,6 +2843,7 @@ export const Localization = {
     'unit.pt': 'Punkt',
     'unit.px': 'Pixlar',
     'unit.rem': 'Root Em',
+    'value.language': 'Svenska (Sverige)',
     'value.scaleReset': 'Återställ till standard',
     'value.scaleWindow': 'Anpassa till fönstret',
     'value.system': 'System',
@@ -2716,7 +2856,11 @@ export const Localization = {
     'message.invalidJson': 'Den angivna konfigurationssträngen är inte i ett giltigt JSON-format. Kontrollera syntaxen och försök igen.',
     'message.invalidConfigFormat': 'Konfigurationsfel: Förväntades en giltig JSON-sträng eller ett objekt. Vänligen granska konfigurationsformatet.',
     'message.missingToolbarId': 'Saknas "toolbarId" eller är inte en sträng i den angivna konfigurationen. Se till att den är korrekt inkluderad.',
-    'message.missingLicenseKey': 'Saknas "licenseKey" eller är inte en sträng i den angivna konfigurationen. Se till att den är korrekt inkluderad.'
+    'message.missingLicenseKey': 'Saknas "licenseKey" eller är inte en sträng i den angivna konfigurationen. Se till att den är korrekt inkluderad.',
+    'action.applyConfiguration': 'Tillämpa konfiguration',
+    'action.resetDefault': 'Återställ till standardinställningar',
+    'text.configPresetsInvite': 'Uppdatera och förbättra konfigurationsinställningarna',
+    'text.joinUs': 'Gå med oss'
   },
   'th-TH': {
     'abbr.maximum': 'สูงสุด',
@@ -2768,7 +2912,6 @@ export const Localization = {
     'label.toolbarId': 'ID แถบเครื่องมือ',
     'label.unit': 'หน่วยงาน (ไม้บรรทัด, กริด)',
     'label.version': 'เวอร์ชัน',
-    'value.language': 'ไทย (ประเทศไทย)',
     'unit.cm': 'เซนติเมตร',
     'unit.em': 'Em',
     'unit.in': 'นิ้ว',
@@ -2777,6 +2920,7 @@ export const Localization = {
     'unit.pt': 'จุด',
     'unit.px': 'พิกเซล',
     'unit.rem': 'รูท Em',
+    'value.language': 'ไทย (ประเทศไทย)',
     'value.scaleReset': 'รีเซ็ตเป็นค่าเริ่มต้น',
     'value.scaleWindow': 'พอดีกับหน้าต่าง',
     'value.system': 'ระบบ',
@@ -2789,7 +2933,11 @@ export const Localization = {
     'message.invalidJson': 'สตริงการกำหนดค่าที่ให้มาไม่ใช่รูปแบบ JSON ที่ถูกต้อง โปรดตรวจสอบไวยากรณ์และลองอีกครั้ง',
     'message.invalidConfigFormat': 'ข้อผิดพลาดในการกำหนดค่า: คาดว่าจะเป็นสตริง JSON ที่ถูกต้องหรืออ็อบเจ็กต์ โปรดแก้ไขรูปแบบการกำหนดค่า',
     'message.missingToolbarId': 'ขาด "toolbarId" หรือไม่ใช่สตริงในการกำหนดค่าที่ให้ไว้ โปรดตรวจสอบให้แน่ใจว่ารวมอย่างถูกต้อง',
-    'message.missingLicenseKey': 'ขาด "licenseKey" หรือไม่ใช่สตริงในการกำหนดค่าที่ให้ไว้ โปรดตรวจสอบให้แน่ใจว่ารวมอย่างถูกต้อง'
+    'message.missingLicenseKey': 'ขาด "licenseKey" หรือไม่ใช่สตริงในการกำหนดค่าที่ให้ไว้ โปรดตรวจสอบให้แน่ใจว่ารวมอย่างถูกต้อง',
+    'action.applyConfiguration': 'ใช้การกำหนดค่า',
+    'action.resetDefault': 'รีเซ็ตเป็นค่าเริ่มต้น',
+    'text.configPresetsInvite': 'อัปเดตและปรับปรุงการตั้งค่าการกำหนดค่า',
+    'text.joinUs': 'เข้าร่วมกับเรา'
   },
   'tr-TR': {
     'abbr.maximum': 'Maks.',
@@ -2841,7 +2989,6 @@ export const Localization = {
     'label.toolbarId': 'Araç Çubuğu Kimliği',
     'label.unit': 'Çalışma Birimi (Cetvel, Izgara)',
     'label.version': 'Versiyon',
-    'value.language': 'Türkçe (Türkiye)',
     'unit.cm': 'Santimetre',
     'unit.em': 'Em',
     'unit.in': 'İnç',
@@ -2850,6 +2997,7 @@ export const Localization = {
     'unit.pt': 'Puan',
     'unit.px': 'Piksel',
     'unit.rem': 'Kök Em',
+    'value.language': 'Türkçe (Türkiye)',
     'value.scaleReset': 'Varsayılana Sıfırla',
     'value.scaleWindow': 'Pencereye Sığdır',
     'value.system': 'Sistem',
@@ -2862,7 +3010,11 @@ export const Localization = {
     'message.invalidJson': 'Sağlanan yapılandırma dizesi geçerli bir JSON formatında değil. Lütfen sözdizimini kontrol edin ve tekrar deneyin.',
     'message.invalidConfigFormat': 'Yapılandırma hatası: Geçerli bir JSON dizesi veya nesnesi bekleniyordu. Lütfen yapılandırma biçimini gözden geçirin.',
     'message.missingToolbarId': '"toolbarId" sağlanan yapılandırmada eksik veya bir dize değil. Lütfen doğru şekilde dahil edildiğinden emin olun.',
-    'message.missingLicenseKey': '"licenseKey" sağlanan yapılandırmada eksik veya bir dize değil. Lütfen doğru şekilde dahil edildiğinden emin olun.'
+    'message.missingLicenseKey': '"licenseKey" sağlanan yapılandırmada eksik veya bir dize değil. Lütfen doğru şekilde dahil edildiğinden emin olun.',
+    'action.applyConfiguration': 'Yapılandırmayı Uygula',
+    'action.resetDefault': 'Varsayılan Ayarlara Sıfırla',
+    'text.configPresetsInvite': 'Yapılandırma ön ayarlarını güncelleyin ve geliştirin',
+    'text.joinUs': 'Bize katıl'
   },
   'uk-UA': {
     'abbr.maximum': 'Макс.',
@@ -2914,7 +3066,6 @@ export const Localization = {
     'label.toolbarId': 'ID панелі інструментів',
     'label.unit': 'Робоча одиниця (лінійка, сітка)',
     'label.version': 'Версія',
-    'value.language': 'Українська (Україна)',
     'unit.cm': 'Сантиметри',
     'unit.em': 'Em',
     'unit.in': 'Дюйми',
@@ -2923,6 +3074,7 @@ export const Localization = {
     'unit.pt': 'Пункти',
     'unit.px': 'Пікселі',
     'unit.rem': 'Кореневий Em',
+    'value.language': 'Українська (Україна)',
     'value.scaleReset': 'Скинути до стандартного',
     'value.scaleWindow': 'Пристосувати до вікна',
     'value.system': 'Система',
@@ -2935,7 +3087,11 @@ export const Localization = {
     'message.invalidJson': 'Наданий рядок конфігурації не є дійсним форматом JSON. Перевірте синтаксис і спробуйте ще раз.',
     'message.invalidConfigFormat': 'Помилка конфігурації: очікувався дійсний рядок JSON або об’єкт. Будь ласка, перегляньте формат конфігурації.',
     'message.missingToolbarId': 'ID "toolbarId" відсутній або не є рядком у наданій конфігурації. Переконайтеся, що він правильно включений.',
-    'message.missingLicenseKey': 'Відсутній "licenseKey" або не є рядком у наданій конфігурації. Переконайтеся, що він правильно включений.'
+    'message.missingLicenseKey': 'Відсутній "licenseKey" або не є рядком у наданій конфігурації. Переконайтеся, що він правильно включений.',
+    'action.applyConfiguration': 'Застосувати конфігурацію',
+    'action.resetDefault': 'Скинути до стандартних налаштувань',
+    'text.configPresetsInvite': 'Оновіть та покращте налаштування конфігурації',
+    'text.joinUs': 'Приєднуйтесь до нас'
   },
   'vi-VN': {
     'abbr.maximum': 'Tối đa',
@@ -2987,7 +3143,6 @@ export const Localization = {
     'label.toolbarId': 'ID Thanh công cụ',
     'label.unit': 'Đơn vị Làm việc (Thước đo, Lưới)',
     'label.version': 'Phiên bản',
-    'value.language': 'Tiếng Việt (Việt Nam)',
     'unit.cm': 'Centimet',
     'unit.em': 'Em',
     'unit.in': 'Inch',
@@ -2996,6 +3151,7 @@ export const Localization = {
     'unit.pt': 'Điểm',
     'unit.px': 'Pixel',
     'unit.rem': 'Root Em',
+    'value.language': 'Tiếng Việt (Việt Nam)',
     'value.scaleReset': 'Đặt lại về Mặc định',
     'value.scaleWindow': 'Phù hợp với Cửa sổ',
     'value.system': 'Hệ thống',
@@ -3008,7 +3164,11 @@ export const Localization = {
     'message.invalidJson': 'Chuỗi cấu hình được cung cấp không phải là định dạng JSON hợp lệ. Vui lòng kiểm tra cú pháp và thử lại.',
     'message.invalidConfigFormat': 'Lỗi cấu hình: Dự kiến một chuỗi JSON hợp lệ hoặc một đối tượng. Vui lòng xem xét lại định dạng cấu hình.',
     'message.missingToolbarId': 'ID "toolbarId" bị thiếu hoặc không phải là chuỗi trong cấu hình được cung cấp. Vui lòng đảm bảo rằng nó được bao gồm đúng cách.',
-    'message.missingLicenseKey': 'Thiếu "licenseKey" hoặc không phải là chuỗi trong cấu hình được cung cấp. Vui lòng đảm bảo rằng nó được bao gồm đúng cách.'
+    'message.missingLicenseKey': 'Thiếu "licenseKey" hoặc không phải là chuỗi trong cấu hình được cung cấp. Vui lòng đảm bảo rằng nó được bao gồm đúng cách.',
+    'action.applyConfiguration': 'Áp dụng Cấu hình',
+    'action.resetDefault': 'Đặt lại về Cài đặt Mặc định',
+    'text.configPresetsInvite': 'Cập nhật và cải thiện các thiết lập cấu hình',
+    'text.joinUs': 'Tham gia với chúng tôi'
   },
   'zh-CN': {
     'abbr.maximum': '最大',
@@ -3060,7 +3220,6 @@ export const Localization = {
     'label.toolbarId': '工具栏ID',
     'label.unit': '工作单位（标尺，网格）',
     'label.version': '版本',
-    'value.language': '中文 (中国)',
     'unit.cm': '厘米',
     'unit.em': 'Em',
     'unit.in': '英寸',
@@ -3069,6 +3228,7 @@ export const Localization = {
     'unit.pt': '点',
     'unit.px': '像素',
     'unit.rem': '根Em',
+    'value.language': '中文 (中国)',
     'value.scaleReset': '重置为默认值',
     'value.scaleWindow': '适应窗口',
     'value.system': '系统',
@@ -3081,7 +3241,11 @@ export const Localization = {
     'message.invalidJson': '提供的配置字符串不是有效的JSON格式。请检查语法并重试。',
     'message.invalidConfigFormat': '配置错误：需要一个有效的JSON字符串或对象。请检查配置格式。',
     'message.missingToolbarId': '提供的配置中缺少 "toolbarId" 或不是一个字符串。请确保其正确包含。',
-    'message.missingLicenseKey': '提供的配置中缺少 "licenseKey" 或不是一个字符串。请确保其正确包含。'
+    'message.missingLicenseKey': '提供的配置中缺少 "licenseKey" 或不是一个字符串。请确保其正确包含。',
+    'action.applyConfiguration': '应用配置',
+    'action.resetDefault': '恢复默认设置',
+    'text.configPresetsInvite': '更新并增强配置预设',
+    'text.joinUs': '加入我们'
   },
   'zh-TW': {
     'abbr.maximum': '最大',
@@ -3133,7 +3297,6 @@ export const Localization = {
     'label.toolbarId': '工具列ID',
     'label.unit': '工作單位（標尺，網格）',
     'label.version': '版本',
-    'value.language': '中文 (台灣)',
     'unit.cm': '厘米',
     'unit.em': 'Em',
     'unit.in': '英寸',
@@ -3142,6 +3305,7 @@ export const Localization = {
     'unit.pt': '點',
     'unit.px': '像素',
     'unit.rem': '根Em',
+    'value.language': '中文 (台灣)',
     'value.scaleReset': '重置為默認值',
     'value.scaleWindow': '適應視窗',
     'value.system': '系統',
@@ -3154,6 +3318,10 @@ export const Localization = {
     'message.invalidJson': '提供的配置字符串不是有效的JSON格式。請檢查語法並重試。',
     'message.invalidConfigFormat': '配置錯誤：需要一個有效的JSON字符串或對象。請檢查配置格式。',
     'message.missingToolbarId': '提供的配置中缺少 "toolbarId" 或不是一個字符串。請確保其正確包含。',
-    'message.missingLicenseKey': '提供的配置中缺少 "licenseKey" 或不是一個字符串。請確保其正確包含。'
+    'message.missingLicenseKey': '提供的配置中缺少 "licenseKey" 或不是一個字符串。請確保其正確包含。',
+    'action.applyConfiguration': '應用配置',
+    'action.resetDefault': '恢復預設設定',
+    'text.configPresetsInvite': '更新並增強配置預設',
+    'text.joinUs': '加入我們'
   }
 };
